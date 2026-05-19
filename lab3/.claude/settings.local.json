@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python performance_test.py)",
+      "Bash(python demo.py)",
+      "Bash(python comprehensive_test.py)",
+      "Bash(python verify_all_algorithms.py)",
+      "Bash(python simple_verify.py)",
+      "Bash(python -c \"print\\('Python is working'\\)\")"
+    ]
+  }
+}

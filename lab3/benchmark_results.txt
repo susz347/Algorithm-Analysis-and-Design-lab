@@ -1,0 +1,49 @@
+================================================================================
+N-QUEENS ALGORITHM PERFORMANCE REPORT
+================================================================================
+
+Board Size: 4x4
+--------------------------------------------------
+Algorithm            Time(s)    Solutions  Nodes      Memory(MB)   Rank
+-----------------------------------------------------------------
+DFSSingle            0.0000     1          9          0.10         #1
+DFSAll               0.0000     2          17         0.10         #2
+BestFSSingle         0.0000     1          9          0.10         #3
+BestFSAll            0.0000     2          17         0.10         #4
+OptimizedBestFSSingle 0.0000     1          9          0.10         #5
+OptimizedBestFSAll   0.0001     2          17         0.10         #6
+
+Board Size: 6x6
+--------------------------------------------------
+Algorithm            Time(s)    Solutions  Nodes      Memory(MB)   Rank
+-----------------------------------------------------------------
+DFSSingle            0.0000     1          32         0.10         #1
+BestFSSingle         0.0001     1          54         0.10         #2
+OptimizedBestFSSingle 0.0001     1          29         0.10         #3
+DFSAll               0.0002     4          153        0.10         #4
+BestFSAll            0.0004     4          153        0.10         #5
+OptimizedBestFSAll   0.0006     4          153        0.10         #6
+
+Board Size: 8x8
+--------------------------------------------------
+Algorithm            Time(s)    Solutions  Nodes      Memory(MB)   Rank
+-----------------------------------------------------------------
+DFSSingle            0.0002     1          114        0.10         #1
+BestFSSingle         0.0002     1          61         0.10         #2
+OptimizedBestFSSingle 0.0003     1          58         0.10         #3
+DFSAll               0.0033     92         2057       0.10         #4
+BestFSAll            0.0071     92         2057       0.10         #5
+OptimizedBestFSAll   0.0121     92         2057       0.20         #6
+
+================================================================================
+OVERALL PERFORMANCE ANALYSIS
+================================================================================
+
+Algorithm Rankings (by number of wins):
+--------------------------------------------------
+ 1. DFSSingle       | Wins:  3 | Avg Time: 0.0001s | Avg Nodes: 52 | Avg Memory: 0.10MB
+ 2. DFSAll          | Wins:  0 | Avg Time: 0.0012s | Avg Nodes: 742 | Avg Memory: 0.10MB
+ 3. BestFSAll       | Wins:  0 | Avg Time: 0.0025s | Avg Nodes: 742 | Avg Memory: 0.10MB
+ 4. BestFSSingle    | Wins:  0 | Avg Time: 0.0001s | Avg Nodes: 41 | Avg Memory: 0.10MB
+ 5. OptimizedBestFSAll | Wins:  0 | Avg Time: 0.0043s | Avg Nodes: 742 | Avg Memory: 0.13MB
+ 6. OptimizedBestFSSingle | Wins:  0 | Avg Time: 0.0002s | Avg Nodes: 32 | Avg Memory: 0.10MB
